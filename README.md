@@ -6,6 +6,8 @@ Visual explanations are logical arguments based on visual features that justify 
 
 ![Contrastive Explanations](Explanations.png). 
 
+The last four columns display the contrastive explanations.  
+
 **Paper** : 
 
 **Code Acknowledgements** :  
