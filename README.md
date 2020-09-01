@@ -8,7 +8,7 @@ Visual explanations are logical arguments based on visual features that justify 
 
 The last four columns display the contrastive explanations.  
 
-**Paper** : 
+**Paper** : https://arxiv.org/abs/2008.00178 
 
 **Code Acknowledgements** :  
 
