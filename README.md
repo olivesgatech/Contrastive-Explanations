@@ -10,8 +10,15 @@ The last four columns display the contrastive explanations.
 
 **Paper** : https://arxiv.org/abs/2008.00178 
 
-**Code Acknowledgements** :  
+**Code Acknowledgements** :  The code is built on Grad-CAM. We use the implementation of **https://github.com/1Konny/gradcam_plus_plus-pytorch** as our base code. Specifically, Recognition/utils.py and Recognition/gradcam.py are adapted. For the application of Image Quality Assessment, we use pretrained networks and network architecture from **https://github.com/lidq92/WaDIQaM**. Specifically, Image Quality Assessment/IQA.py and Image Quality Assessment/checkpoints are used.
 
-The code is built on Grad-CAM. We use the implementation of **https://github.com/1Konny/gradcam_plus_plus-pytorch** as our base code. Specifically, Recognition/utils.py and Recognition/gradcam.py are adapted. For the application of Image Quality Assessment, we use pretrained networks and network architecture from **https://github.com/lidq92/WaDIQaM**. Specifically, Image Quality Assessment/IQA.py and Image Quality Assessment/checkpoints are used.
+**Citation** : Prabhushankar, Mohit, et al. "Contrastive explanations in neural networks." 2020 IEEE International Conference on Image Processing (ICIP). IEEE, 2020.
 
-**Citation**. 
+**Bibtex** : @inproceedings{prabhushankar2020contrastive,
+  title={Contrastive explanations in neural networks},
+  author={Prabhushankar, Mohit and Kwon, Gukyeong and Temel, Dogancan and AlRegib, Ghassan},
+  booktitle={2020 IEEE International Conference on Image Processing (ICIP)},
+  pages={3289--3293},
+  year={2020},
+  organization={IEEE}
+}
